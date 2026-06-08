@@ -79,13 +79,13 @@ The script typically removes the following packages:
 
 | Package | Function |
 |----------|----------|
-| com.miui.msa.global | Xiaomi ad platform |
 | com.miui.analytics | Telemetry |
 | com.miui.android.fashiongallery | Wallpaper Carousel ads |
-| com.xiaomi.mipicks | GetApps |
-| com.xiaomi.discover | Discover recommendations |
-| com.miui.yellowpage | Recommendations, business database |
 | com.miui.bugreport | Bug reporting |
+| com.miui.daemon | Daemon |
+| com.miui.msa.global | Xiaomi ad platform |
+| com.xiaomi.discover | Discover recommendations |
+| com.xiaomi.mipicks | GetApps |
 | com.xiaomi.ugd | Promotional service |
 
 ---

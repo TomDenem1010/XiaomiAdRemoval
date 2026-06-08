@@ -22,10 +22,9 @@ echo.
 
 call :REMOVE com.miui.analytics "Analytics"
 call :REMOVE com.miui.android.fashiongallery "Wallpaper Carousel"
-call :REMOVE com.miui.bugreport "Hibajelentesek"
-call :REMOVE com.miui.daemon "Hatterszolgaltatas, telemetria jellegu funkciok"
-call :REMOVE com.miui.msa.global "MSA reklam szolgaltatas"
-call :REMOVE com.miui.yellowpage "Hivoazonosito, uzleti ajanlasok"
+call :REMOVE com.miui.bugreport "Bugreport"
+call :REMOVE com.miui.daemon "Daemon"
+call :REMOVE com.miui.msa.global "MSA"
 
 call :REMOVE com.xiaomi.discover "Discover"
 call :REMOVE com.xiaomi.mipicks "GetApps"
