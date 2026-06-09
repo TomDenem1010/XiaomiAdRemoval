@@ -11,7 +11,7 @@ if not exist "%ADB%" (
 )
 
 echo.
-echo ===== Xiaomi Bloatware Ads Remover =====
+echo ===== Xiaomi Bloatware Remover =====
 echo.
 
 "%ADB%" devices
@@ -20,15 +20,10 @@ echo.
 echo ===== START =====
 echo.
 
-call :REMOVE com.miui.analytics "Analytics"
-call :REMOVE com.miui.android.fashiongallery "Wallpaper Carousel"
-call :REMOVE com.miui.bugreport "Bugreport"
-call :REMOVE com.miui.daemon "Daemon"
-call :REMOVE com.miui.msa.global "MSA"
-
-call :REMOVE com.xiaomi.discover "Discover"
-call :REMOVE com.xiaomi.mipicks "GetApps"
-call :REMOVE com.xiaomi.ugd "Xiaomi User Growth"
+call :REMOVE com.google.android.apps.tachyon "Google Meet"
+call :REMOVE com.google.android.apps.subscriptions.red "Google One"
+call :REMOVE com.google.android.apps.youtube.music "Youtube Music"
+call :REMOVE com.google.android.videos "Google TV"
 
 echo ----------------------------------------
 echo.
